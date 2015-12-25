@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <Preference android:title="Add info">
+	    <intent android:action="your.action.add" />
+   	</Preference>
+   	
+   	<Preference android:title="Delete info">
+	    <intent android:action="your.action.delete" />
+   	</Preference>
+   	
+   	<Preference android:title="Edit info">
+	    <intent android:action="your.action.edit" />
+   	</Preference>
+   	
+</PreferenceScreen>

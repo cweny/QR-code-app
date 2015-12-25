@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:text="@string/fill"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="12dp"
+        android:textSize="18sp"/>
+
+	<EditText 
+	    android:id="@+id/title"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:hint="@string/title"/>
+	<EditText 
+	    android:id="@+id/card_num"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:hint="@string/card_num"/>
+	<EditText 
+	    android:id="@+id/exp_date"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:hint="@string/exp_date"/>
+	<EditText 
+	    android:id="@+id/code"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:hint="@string/code"/>
+
+	<Button
+	    android:id="@+id/addButton"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/save" 
+	    />
+
+</LinearLayout>
